@@ -1,0 +1,193 @@
+body{
+  background-color: black;
+  background-image: url("livestrong.jpg");
+  background-repeat: no-repeat;
+  background-position: center 650px;
+}
+.grad{
+  height: 40%;
+  background:linear-gradient(white, black);
+
+}
+
+.vid{
+  margin-left: 400px;
+}
+.body{
+  margin-left: 100px;
+  margin-top: 10px;
+  padding-top: 5px;
+  opacity: 0.40;
+}
+#image{
+  padding-left: 170px;
+  width: 75%;
+  height: 170px;
+  opacity: 0.70;
+}
+#info{
+  margin-top: 10px;
+  border: solid;
+  padding: 7px;
+  border-color: yellow;
+  background-color: yellow;
+}
+li span{
+  margin-left: 15px;
+}
+li{
+
+  display: inline;
+  }
+  .list{
+    color: yellow;
+    cursor: pointer;
+  }
+  .modal-header{
+      background:linear-gradient(yellow, black);
+    color: black;
+
+  }
+  .modall {
+
+      display: none;
+      position: absolute;
+      z-index: 1;
+      left: 250px;
+      bottom: 200px;
+      top: 0;
+      width: 900px;
+      height: 2500px;
+
+    }
+
+  /* Modal Content/Box */
+.about-modal-content {
+    background-color: black;
+    color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid yellow;
+    width: 80%;
+    height: 400px;
+}
+.closee {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closee:hover,
+.closee:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mission-modal-content {
+    background-color: black;
+    color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid yellow;
+    width: 80%;
+    height: 400px;
+}
+.closeq {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closeq:hover,
+.closeq:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.event-modal-content {
+    background-color: black;
+    color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid yellow;
+    width: 80%;
+    height: 400px;
+}
+.closew {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.closew:hover,
+.closew:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contact-modal-content {
+    background-color: black;
+    color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid yellow;
+    width: 80%;
+    height: 400px;
+}
+.closer {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.list:hover,
+.list:focus {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closer:hover,
+.closer:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+.containers{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 250px;
+  bottom: 200px;
+  top: 0;
+  width: 900px;
+  height: 2500px;
+}
+#name{
+  margin-top: 5px;
+}
+#names{
+  margin-top: 5px;
+}
+#q{
+  margin-top: 5px;
+}
+#s{
+  margin-top: 5px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#exit:hover,
+#exit:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
